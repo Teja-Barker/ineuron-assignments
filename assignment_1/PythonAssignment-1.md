@@ -1,5 +1,6 @@
 ## Assignment Part-1
 Q1. Why do we call Python as a general purpose and high-level programming language?
+
 ANS:
     Python is simple and readable, It's syntax is easy to learn and understand, which makes it a popular choice for beginners and experienced programmers.
 
@@ -11,10 +12,12 @@ ANS:
     
 
 Q2. Why is Python called a dynamically typed language?
+
 ANS:
     Python is considered a dynamically typed language because it checks the type of the declared variable during runtime rather than at compile time, That means we do not need to specify the type of the variable when we declare it and we can change the type of the variable over the course of the program.    
 
 Q3. List some pros and cons of Python programming language?
+
 ANS:
     Pros:
         *Python is easy, simple,and understandable
@@ -28,6 +31,7 @@ ANS:
 
 
 Q4. In what all domains can we use Python?
+
 ANS:
     1. Automation
     2. web development
@@ -42,6 +46,7 @@ ANS:
 
 
 Q5. What are variable and how can we declare them?
+
 ANS:
     Variable is a name that refers to a value in computer's memory. It hold a data in program and it can be used to represent different data types such as integer, floats, strings ,lists, and dictionaries.
     we can declare a variable simply by assigning a value to a name
@@ -54,6 +59,7 @@ ANS:
 
 
 Q6. How can we take an input from the user in Python?
+
 ANS:
     We can take an input from user using input() function 
     example:
@@ -62,10 +68,12 @@ ANS:
 
 
 Q7. What is the default datatype of the value that has been taken as an input using input() function?
+
 ANS:
     Default datatype if the value that has been taken as an input using input() function is "string"
 
 Q8. What is type casting?
+
 ANS:
     Type casting is a changing the data type of the variable
     example:
