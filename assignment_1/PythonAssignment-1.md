@@ -227,7 +227,7 @@ Q25. Write a program to display only those numbers from a list that satisfy the 
 numbers = [12, 75, 150, 180, 145, 525, 50]
 ```
 ANS:
-'''
+```
     numbers = [12, 75, 150, 180, 145, 525, 50]
     result=[]
     for element in numbers:
@@ -238,4 +238,4 @@ ANS:
         elif element%5==0:
             result.append(element)
     print(result)
- '''
+ ```
