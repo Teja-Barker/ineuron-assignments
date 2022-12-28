@@ -81,22 +81,26 @@ ANS:
             b=int(a) # varable 'a' is type casted to integer data type
 
 Q9. Can we take more than one input from the user using single input() function? If yes, how? If no, why?
+
 ANS:
     Yes we can take more than one input from the user using single input() function
     For example:
                 x,y,z=input("enter three values").split(',')
 
 Q10. What are keywords?
+
 ANS:
     Keywords are words that have a specific meaning in the language, keywords can not be used as a variable.
     There are 33 keywords in python.
 
 Q11. Can we use keywords as a variable? Support your answer with reason.
+
 ANS:
     We can not use keywords as a variable. Keywords are reserved words in python and they have specific meaning and purpose.
     If we use keyword as a variable then it will throw a syntax error.
 
 Q12. What is indentation? What's the use of indentaion in Python?
+
 ANS:
     Indentation consists of spaces or tabs. It is important in python to indicate the structure of the code. 
     Level of indentation indicates which lines of code belong to particuler block.
@@ -104,16 +108,19 @@ ANS:
 
 
 Q13. How can we throw some output in Python?
+
 ANS:
     Using print() function we can throw output in python
 
 Q14. What are operators in Python?
+
 ANS:
     Operators are symbols in python that performs specific operation on one or more values or variables.
     they performs calculation and comparison operation on operands 
 
 
 Q15. What is difference between / and // operators?
+
 ANS:
     The '/' and '//' both performs division operation. '/' returns a float result and '//' returns a integer result
     For example:
@@ -130,6 +137,7 @@ ANS:
     print(name)
 
 Q17. Write a code to take a number as an input from the user and check if the number is odd or even.
+
 ANS:
 
     x=int(input("Enter the number: "))
@@ -139,6 +147,7 @@ ANS:
         print(f"{x} is a odd number")
 
 Q18. What are boolean operator?
+
 ANS:
     Boolean operators used to perform logical operation on boolean values. There three boolean opearators
         1. and
@@ -165,12 +174,14 @@ ANS:
 
 
 Q20. What are conditional statements in Python?
+
 ANS:
     In Python, conditional statements are used to execute certain pieces of code only if certain conditions are met. 
     There are two types of conditional statements: if statements and if-else statements.
 
 
 Q21. What is use of 'if', 'elif' and 'else' keywords?
+
 ANS:
     The if, elif, and else keywords are used in Python to control the flow of a program based on different conditions.
     The if keyword is used to specify a condition, and the code block following the if statement will be executed only if the condition is True.
@@ -178,6 +189,7 @@ ANS:
     The else keyword is used to specify a code block to be executed if all of the previous conditions are False.
 
 Q22. Write a code to take the age of person as an input and if age >= 18 display "I can vote". If age is < 18 display "I can't vote".
+
 ANS:
     age=int(input("Enter your age:"))
     if age>=18:
@@ -196,6 +208,7 @@ ANS:
 
 
 Q24. Write a code to take 3 numbers as an input from the user and display the greatest no as output.
+
 ANS:
     x,y,z=input("Enter three numbers seperated by comma: ").split(',')
     x=int(x)
